@@ -11,10 +11,10 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.threemb.R;
 import com.threemb.activity.MainActivity;
 import com.threemb.callers.OnItemClickListener;
 import com.threemb.models.Advertise;
-import com.threemb.sachinsample.R;
 import com.threemb.utils.CommonUtils;
 
 import java.util.ArrayList;

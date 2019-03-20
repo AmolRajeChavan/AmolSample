@@ -13,7 +13,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.threemb.sachinsample.R;
+import com.threemb.R;
 import com.threemb.utils.CommonUtils;
 
 import java.io.BufferedReader;

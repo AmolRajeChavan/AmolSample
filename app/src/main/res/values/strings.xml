@@ -1,7 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Demo App</string>
+
+    <string name="app_name">REPORTING</string>
+    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <string name="notifications_setting">Notifications Settings</string>
+    <string name="logout_setting">Logout Settings</string>
+    <string name="intervel_setting">Intervel Settings</string>
+    <string name="injest_data_interval">Ingest Interval</string>
+    <string name="gps_data_interval">Location Interval</string>
+
+    <string name="google_play_service_not_updated">Google Play Service not updated.</string>
+    <string name="service_disconnected">Service disconnected.</string>
+
+    <string name="ingest_duretion">Ingest Duration (Sec)</string>
+    <string name="gps_duretion">Location Duration (Sec)</string>
+
+    <string name="crash_dialog_text">Do you want to send crash report to developer?</string>
+    <string name="crash_dialog_title">EASR Crashed</string>
+
+    <string name="user_not_valid">User not valid.</string>
+
+
+    <!-- Login Screen -->
+    <string name="client_key">Client Key</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="login">Login</string>
+    <string name="firstname">FirstName</string>
+    <string name="lastname">LastName</string>
+    <string name="register">Register</string>
+    <string name="signup">Not a member? Sign up now </string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="mobile">Mobile</string>
+    <string name="submit">SUBMIT</string>
+    <string name="reset">Reset Password</string>
+    <string name="email">Email</string>
+    <string name="syncing">Syncing</string>
+    <string name="forgotpassword">Forgot Password</string>
+    <string name="text_recover_pwd">Enter your registered username to recover your password </string>
+    <string name="enter_key">Enter Key</string>
+    <string name="enter_username">Enter User Name</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="raditation_detector_tool">Radiation Detector Tool</string>
+    <string name="forget_password">Forgot Password?</string>
+    <string name="forgot_pwd_username_submit">Your new password sent to your registered email id.</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="validation_error">Validation Error</string>
+    <string name="please_enter_all_fields">Please Enter All the fields.</string>
+    <string name="please_enter_correct_uname_and_pwd">Please enter Correct UserName and Password.</string>
+    <string name="sync_info">Please wait while EASR \n synchronizes data with \n the live server</string>
+    <string name="title_activity_splash">SplashActivity</string>
+
+    <string name="please_check_internet_connection">Please check internet connection and try again.</string>
+    <string name="failed_to_login">Failed to login</string>
+    <string name="unexpected_response">Unexpected response</string>
+    <string name="exit">Exit</string>
+    <string name="do_you_want_to_exit_this_application">Do you want to exit this application?</string>
     <string name="error_in_connection">Error in connection</string>
 
+    <string name="no_projects_available">No projects available.</string>
+    <string name="no_segements_available">No Segements available for this project.</string>
+    <!-- Left Drawer -->
+
+    <string name="home">Home</string>
+    <string name="account">Account</string>
+    <string name="messages">Messages</string>
+    <string name="sensor">Sensor</string>
+    <string name="downloads">Downloads</string>
+    <string name="feedbackk">Feedback</string>
+    <string name="send_feedback">Send us your feedback</string>
+    <string name="log_out">Log Out</string>
+    <string name="change_pwd">Change Password</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="calibration_coefficient_title">Calibration Coefficient</string>
+    <string name="calibration_offset_title">Coefficient Offset</string>
+    <string name="measurement_time_title">Measurement Time</string>
+    <string name="serial_setting_title">Serial Setting</string>
+    <string name="calibrationcoefficient_title">Coefficient (cpm / 1uSv/h)</string>
+    <string name="calibrationoffset_title">Offset (cpm / 1uSv/h)</string>
+    <string name="measurementtime_title">Measurement Time</string>
+    <string name="measurementtime_summary">measurement time</string>
+    <string name="baudrate_title">Baudrate</string>
+    <string name="baudrate_summary">baud rate</string>
+    <string name="databits_title">Data bits</string>
+    <string name="databits_summary">Data bits</string>
+    <string name="parity_title">Parity check</string>
+    <string name="parity_summary">Parity check</string>
+    <string name="stopbits_title">Stop bit</string>
+    <string name="stopbits_summary">Stop bit</string>
+    <string name="flowcontrol_title">Flow control</string>
+    <string name="flowcontrol_summary">Flow control</string>
+    <string name="title_activity_sensor">Sensor</string>
+
+    <!--Titles-->
+    <string name="projects">Projects</string>
+    <string name="segements">Segements</string>
+    <string name="digital_environment">Digital Environment</string>
+    <string name="settings">Settings</string>
+    <string name="dynamic_data">[Dynamic Data]</string>
+
+    <!--Sensor Note-->
+    <string name="write_note">Write Note</string>
+    <string name="sensor1">Sensor 1</string>
+    <string name="submitt">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="close">Close</string>
+    <string name="enter_note">Please Enter the Note</string>
+    <string name="enter_feedbackk">Please Enter the Feedback</string>
+    <string name="save_note">Note saved successfully</string>
+    <string name="note_length">Characters length should be less than 60</string>
+    <string name="feedback_length">Characters length exceeded</string>>
+
+
+    <!--Sensor Camera-->
+    <string name="picture">PICTURE</string>
+    <string name="request_permission">This Sample needs Camera Permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+    <!--Tab-->
+    <string name="rad">RAD</string>
+    <string name="gps">GPS</string>
+    <string name="note">NOTE</string>
+    <string name="image">IMAGE</string>
+
+
+    <string name="name">Enter Name</string>
+    <string name="mail_id">Enter Mail Id</string>
+    <string name="comment">Enter Comment</string>
+    <string name="enter_feedback">Enter Feedback</string>
+
+    <string name="selectsegment">--Select--</string>
 
 </resources>

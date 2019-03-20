@@ -17,6 +17,12 @@ public class AppConstants extends MultiDexApplication {
     public static final String URL_GET_DATA = "http://adgebra.co.in/AdServing/PushNativeAds?pid=323&mkeys=&dcid=9&nads=2&deviceId=2&ip=203.109.101.177&url=demo.inuxu.org&pnToken=3KfutF4QBdjzSL9z";
     public static final String GET_DATA ="lbl_get_data" ;
 
+    public static final String KEY_FRAGEMENT_NAME = "fragement_name";
+    public static final String LOGIN_REQUEST ="login_request" ;
+    public static final String SEND_INJEST ="injest_request";
+    public static final String SEND_NOTE="send_note";
+    public static final String PROJECT_SYNC_REQUEST ="sync_request" ;
+
     public static final String STATUS_DRAFT = "Draft";
     public static final String STATUS_IN_PROGRESS = "In Progress";
     public static final String STATUS_COMPLETED = "Completed";
@@ -26,6 +32,31 @@ public class AppConstants extends MultiDexApplication {
     public static final String STATUS_IN_PROGRESS_CODE = "3002";
     public static final String STATUS_COMPLETED_CODE = "3003";
     public static final String STATUS_CANCELLED_CODE = "3004";
+
+    public final static String JOB_STATUS_NON_STARTED="1";
+    public final static String JOB_STATUS_STARTED="2";
+    public final static String JOB_STATUS_COMPLETEDD="3";
+
+    public static final String STATUS = "status";
+    public static final String JOB_SYNC_REQUEST ="job_sync_request";
+    public static final String PROJECT_ASYNC="project_async";
+    public static final String PROJECTS = "projects";
+    public static final String JOBS ="jobs" ;
+    public static final String JOB ="job" ;
+    public static final String SENSOR_JOB ="job" ;
+    public static final String PROJECT = "project";
+
+
+    public static final String SENSER_TYPE_THREE_RAD="Radiation";
+    public static final String SENSER_TYPE_FIVE_GPS="GPS";
+    public static final String SENSER_TYPE_SEVEN_NOTE="Notes";
+    public static final String SENSER_TYPE_EIGHT_IMG="Photo";
+
+    public static final String SENSER_TYPE_THREE_RAD_TITLE="RAD";
+    public static final String SENSER_TYPE_FIVE_GPS_TITLE="GPS";
+    public static final String SENSER_TYPE_SEVEN_NOTE_TITLE="NOTE";
+    public static final String SENSER_TYPE_EIGHT_IMG_TITLE="IMAGE";
+    public static final String DEFAULT_TITLE="Details";
 
     @Override
     public void onCreate() {

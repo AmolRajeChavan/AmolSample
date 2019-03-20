@@ -13,6 +13,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.threemb.R;
 import com.threemb.adapters.AdvertiseListingAdapter;
 import com.threemb.app.AppConstants;
 import com.threemb.async.GetAsync;
@@ -20,7 +21,6 @@ import com.threemb.callers.OnItemClickListener;
 import com.threemb.callers.ServiceCaller;
 import com.threemb.models.Advertise;
 import com.threemb.models.Response;
-import com.threemb.sachinsample.R;
 import com.threemb.utils.CommonUtils;
 
 public class MainActivity extends BaseActivity implements ServiceCaller,OnItemClickListener {
