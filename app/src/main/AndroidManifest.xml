@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.threemb.sachinsample">
+    package="com.threemb">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -28,6 +28,9 @@
         <activity
             android:name="com.threemb.activity.MainActivity">
         </activity>
+        <provider
+            android:name=".database.DatabaseProvider"
+            android:authorities="com.threemb.sachinsample" />
     </application>
 
 </manifest>

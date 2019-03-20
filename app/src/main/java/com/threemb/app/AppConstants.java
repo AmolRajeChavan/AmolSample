@@ -17,6 +17,16 @@ public class AppConstants extends MultiDexApplication {
     public static final String URL_GET_DATA = "http://adgebra.co.in/AdServing/PushNativeAds?pid=323&mkeys=&dcid=9&nads=2&deviceId=2&ip=203.109.101.177&url=demo.inuxu.org&pnToken=3KfutF4QBdjzSL9z";
     public static final String GET_DATA ="lbl_get_data" ;
 
+    public static final String STATUS_DRAFT = "Draft";
+    public static final String STATUS_IN_PROGRESS = "In Progress";
+    public static final String STATUS_COMPLETED = "Completed";
+    public static final String STATUS_CANCELLED = "Cancelled";
+
+    public static final String STATUS_DRAFT_CODE = "3001";
+    public static final String STATUS_IN_PROGRESS_CODE = "3002";
+    public static final String STATUS_COMPLETED_CODE = "3003";
+    public static final String STATUS_CANCELLED_CODE = "3004";
+
     @Override
     public void onCreate() {
         super.onCreate();
