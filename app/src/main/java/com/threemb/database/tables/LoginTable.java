@@ -16,7 +16,7 @@
  #####     CODE BRIEFING     : UserLoginTable Class.         		 			   	      #####
  #####                         class describes all necessary info about UserLogin Table   #####
  #####                                                                                    #####
- #####     COMPANY           : SpotOn Software Pvt. Ltd.                                  #####
+ #####                                                                                    #####
  #####                                                                                    #####
  ##############################################################################################
  */
