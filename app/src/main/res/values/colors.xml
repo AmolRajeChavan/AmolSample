@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_branding_color">#9B2286</color>
+    <color name="secondary_branding_color">#3BAE02</color>
+    <color name="secondary_branding_selector_color">#277801</color>
+    <color name="navigation_background">#262D40</color>
+    <color name="background_gradient_start_color">#7CA5C5</color>
+    <color name="background_gradient_end_color">#CDB9B8</color>
+    <color name="link_color">#0C5EC0</color>
+    <color name="white_color">#FFFFFF</color>
+    <color name="panel_background">#efefef</color>
+
+    <color name="colorPrimary">@color/header_bg</color>
+    <color name="colorPrimaryDark">#105A97</color>
+
+    <color name="blue_background">#3BC5F3</color>
+    <color name="blue_login">#33669b</color>
+    <color name="black_color">#000000</color>
+    <color name="semitransperant_dark_black_color">#66000000</color>
+    <color name="semitransperant_black_color">#33000000</color>
+    <color name="semitransperant_light_black_color">#20000000</color>
+    <color name="semitransperant_white_color">#33FFFFFF</color>
+    <color name="low_semitransperant_white_color">#AAFFFFFF</color>
+    <color name="extra_semitransperant_white_color">#11FFFFFF</color>
+
+    <color name="cornflowerblue">#0000ff</color>
+    <color name="btn_sign_in">#ffffff</color>
+    <color name="btn_sign_in_hover">#E6E6E6</color>
+    <color name="header_bg">#33669b</color>
+
+    <color name="spinner_bg">#F2F2F2</color>
+    <color name="blue_project_title">#33669b</color>
+    <color name="black_project_subtitle">#6a6a6a</color>
+    <color name="project_list_item_bg">#ffffff</color>
+
+    <color name="drawer_bg">#33669b</color>
+    <color name="drawer_item_selected_bg">#3796c7</color>
+
+    <color name="remove_color">#BB2F00</color>
+    <color name="remove_silent_color">#E2A5A5</color>
+    <color name="curriculum_progressbar_background">#D6D6D6</color>
+    <color name="curriculum_info_popup_background">#FCF9EF</color>
+
+    <color name="blue_for_gradient_color_one">#34456D</color>
+    <color name="blue_for_gradient_color_two">#2D3855</color>
+    <color name="blue_for_gradient_color_three">#262D40</color>
+
+    <color name="progress_bar_background">#D6D6D6</color>
+    <color name="tablet_settings_header_background">#EEEEEE</color>
+
+    <color name="navigation_icon_color">#262D40</color>
+    <color name="navigation_home_color">#9B2286</color>
+
+    <color name="assessment_question_color">#393937</color>
+    <color name="title_text_color">#1E1E1E</color>
+    <color name="dashboard_back">#DCE2E9</color>
+    <color name="extra_semitransperant_grey_color">#11D6D6D6</color>
+
+    <color name="sensor_test">#33669b</color>
+    <color name="sensor_test_hover">#ffffff</color>
+    <color name="tab_layout">#3BC5F3</color>
+
+</resources>

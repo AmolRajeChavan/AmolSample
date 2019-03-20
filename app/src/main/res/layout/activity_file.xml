@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.threemb.activity.FileActivity">
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Reading and Writing to External Storage Phone Numbers:"
+        android:textSize="24sp"/>
+
+    <EditText android:id="@+id/myInputText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" android:lines="5"
+        android:minLines="3" android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:hint="Enter Numbers Seperated by , ">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText android:id="@+id/edt_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" android:lines="5"
+        android:minLines="3" android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:hint="Enter Message">
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="0.9"
+        android:layout_marginTop="20dp">
+
+        <Button android:id="@+id/saveExternalStorage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SAVE"
+            android:layout_weight="0.3"/>
+
+        <Button android:id="@+id/getExternalStorage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:text="READ" />
+        <Button android:id="@+id/btnSendSMS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="Send" />
+
+    </LinearLayout>
+
+    <TextView android:id="@+id/response"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:padding="5dp"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>
